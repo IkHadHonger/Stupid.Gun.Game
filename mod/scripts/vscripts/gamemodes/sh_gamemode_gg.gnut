@@ -75,7 +75,6 @@ void function CreateGamemodeGG()
         //titan abilities
         GunGameWeapon ggWeebWave     = { weapon = "mp_titanweapon_arc_wave",  mods = ["pas_ronin_arcwave", "burn_mod_titan_arc_wave", "dev_mod_low_recharge"],         offhandSlot = 0, ... }                        
         GunGameWeapon ggShield       = { weapon = "mp_titanweapon_heat_shield",         offhandSlot = 0, ... }
-	GunGameWeapon ggBaseClass    = { weapon = "mp_titanweapon_vortex_shield",         offhandSlot = 0, ... }
 	GunGameWeapon ggRocketSalvo  = { weapon = "mp_titanweapon_salvo_rockets",         offhandSlot = 0, ... }
  	
         // smg
@@ -139,7 +138,7 @@ void function CreateGamemodeGG()
 	    file.weapons.append(ggR97)
         file.weapons.append(ggXo16)
 
-	 // file.weapons.append(ggHemlok)
+	    file.weapons.append(ggHemlok)
 	    file.weapons.append(ggFlatline)
 	    file.weapons.append(ggR201)
 	    file.weapons.append(ggG2)
@@ -165,9 +164,9 @@ void function CreateGamemodeGG()
 	    file.weapons.append(ggWingmanElite)
         file.weapons.append(gg40mm)
 
-	 // file.weapons.append(ggDoubletake)
+	    file.weapons.append(ggDoubletake)
 	    file.weapons.append(ggKraber)
-	 // file.weapons.append(ggLongbow)
+	    file.weapons.append(ggLongbow)
         file.weapons.append(ggPlasma)
 
 	    file.weapons.append(ggRe45)
@@ -176,8 +175,7 @@ void function CreateGamemodeGG()
 	    file.weapons.append(ggTrippleThread)
          
        file.weapons.append(ggWeebWave)
-       file.weapons.append(ggShield)
-       file.weapons.append(ggBaseClass)				
+       file.weapons.append(ggShield)				
        file.weapons.append(ggRocketSalvo)
        
         // Random order til now
